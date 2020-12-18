@@ -1,3 +1,6 @@
+/********
+ * BODY *
+ ********/
 body {
     margin: 0;
 }
@@ -5,10 +8,9 @@ body {
     display: grid;
     grid-template-rows: 10% 80vh 10%;
 }
-#divider {
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
+/**********
+ * HEADER *
+ **********/
 header {
     display: flex;
     justify-content: right;
@@ -16,6 +18,7 @@ header {
     border: 1px solid rgba(171, 71, 188);
     background-color: rgba(171, 71, 188, 0.2);
 }
+/* Logo */
 #logo {
     font-size: 20px;
 }
@@ -24,12 +27,28 @@ header {
     padding-top: 2px;
     height: 15px;
 }
+/******************
+ * MIDDLE SECTION *
+ ******************/
+#divider {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/* Theme menu */
 #theme-menu {
     border-right: 1px solid rgba(171, 71, 188, 0.2);
 }
 #choose {
     font-size: 14px;
 }
+.li-theme {
+    font-size: 12px;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+}
+/* Input form */
 form {
     display: flex;
     flex-direction: row;
@@ -46,12 +65,32 @@ input {
     flex-grow: 2;
     border: none;
 }
-
 input:focus {
     outline: none;
 }
+/* Button */
 button {
     border: 1px solid rgba(171, 71, 188);
     background-color: rgba(171, 71, 188, 0.2);
     color: rgba(171, 71, 188);
+}
+/* Categories */
+#menu {
+    font-size: 14px;
+    margin-left: 150px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns:  15% 15% 15%;
+}
+/**********
+ * FOOTER *
+ **********/
+footer {
+    display: grid;
+    grid-template-rows: ;
+}
+footer>ul {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    justify-content: center;
 }
