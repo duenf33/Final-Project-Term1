@@ -3,11 +3,11 @@ body {
 }
 #container {
     display: grid;
-    grid-template-rows: 10% auto 10%;
+    grid-template-rows: 10% 80vh 10%;
 }
 #divider {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 20% 80%;
 }
 header {
     display: flex;
@@ -16,15 +16,27 @@ header {
     border: 1px solid rgba(171, 71, 188);
     background-color: rgba(171, 71, 188, 0.2);
 }
+#logo {
+    font-size: 20px;
+}
 #cart {
     padding: 0 10px;
     padding-top: 2px;
     height: 15px;
 }
+#theme-menu {
+    border-right: 1px solid rgba(171, 71, 188, 0.2);
+}
+#choose {
+    font-size: 14px;
+}
 form {
     display: flex;
     flex-direction: row;
     border: 1px solid rgba(171, 71, 188);
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 600px;
     padding: 2px;
 }
 ::placeholder {
