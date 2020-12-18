@@ -30,3 +30,8 @@
 
 1. This Task list will slide to the right when tak is finished.</br>
 2. Tasks on the left on the red will be the pending tasks.</br>
+
+---
+
+## File and folder structure for web development:</br>
+* [click here to read more](https://medium.com/@nmayurashok/file-and-folder-structure-for-web-development-8c5c83810a5)

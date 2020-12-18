@@ -1,0 +1,60 @@
+:root {
+    --purple-tp: rgba(171, 71, 188, 0.2);
+    --purple-cl: rgba(171, 71, 188);
+    --red-tp: rgba(255, 51, 102, 0,2);
+    --red-cl: rgba(255, 51, 102); ;
+    --gray-tp: rgba(90, 98, 117, 0.2);
+    --gray-cl: rgba(90, 98, 117);
+    --blue-tp: rgba(89, 106, 202, 0.2);
+    --blue-cl: rgba(89, 106, 202);
+    --green-tp: rgba(78, 174, 83, 0.2);
+    --green-cl: rgba(0, 132, 78);
+}
+a {
+    text-decoration: none;
+}
+.purple-cl {
+    color: var(--purple-cl);
+}
+.purple-bd {
+    border: 1px solid var(--purple-cl);
+}
+.purple-bg {
+    background-color: var(--purple-tp);
+}
+.red-cl {
+    color: var(--red-cl);
+}
+.red-bd {
+    border: 1px solid var(--red-cl);
+}
+.red-bg {
+    background-color: var(--red-tp);
+}
+.gray-cl {
+    color: var(--gray-cl);
+}
+.gray-bd {
+    border: 1px solid var(--gray-cl);
+}
+.gray-bg {
+    background-color: var(--gray-tp);
+}
+.blue-cl {
+    color: var(--blue-cl);
+}
+.blue-bd {
+    border: 1px solid var(--blue-cl);
+}
+.blue-bg {
+    background-color: var(--blue-tp);
+}
+.green-cl {
+    color: var(--green-cl);
+}
+.green-bd {
+    border: 1px solid var(--green-cl);
+}
+.green-bg {
+    background-color: var(--green-tp);
+}
