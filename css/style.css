@@ -19,6 +19,9 @@ header {
     background-color: rgba(171, 71, 188, 0.2);
 }
 /* Logo */
+a {
+    text-decoration: none;
+}
 #logo {
     font-size: 20px;
 }
@@ -81,6 +84,7 @@ button {
     padding: 2px;
     display: grid;
     grid-template-columns:  15% 15% 15%;
+    list-style: none;
 }
 /**********
  * FOOTER *

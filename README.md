@@ -35,3 +35,32 @@
 
 ## File and folder structure for web development:</br>
 * [click here to read more](https://medium.com/@nmayurashok/file-and-folder-structure-for-web-development-8c5c83810a5)
+  
+  ---
+
+## List to follow from Colin:
+Okay, here's what we're talking about:
+
+1. Remove all hard-coded "header has this background-color" and such CSS.
+
+2. Add ONE class for each of our themes to our CSS.
+
+3. Give all html elements the default theme class in our html.
+
+4. Add an event listener to the sidebar buttons that hits all of our items and gives them the corresponding class.
+
+---
+
+For the functionality, I think this is the order you should do it in, and tell me if I'm wrong:
+
+1. make them able to add a task with no categories/tags/whatever at all and have it show up
+
+2. have the tag input buttons be checkboxes
+
+3. make adding a todo item take those checkboxes into account, adding their properties to an object (along with their text)
+
+4. sort them by their point system totals based on those property values
+
+5. do that theming we talked about
+
+6. allow the user to change the point values of categories

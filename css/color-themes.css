@@ -10,9 +10,6 @@
     --green-tp: rgba(78, 174, 83, 0.2);
     --green-cl: rgba(0, 132, 78);
 }
-a {
-    text-decoration: none;
-}
 .purple-cl {
     color: var(--purple-cl);
 }
