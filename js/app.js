@@ -1,20 +1,22 @@
+/*************
+ * SELECTORS *
+ *************/
+const todoInput = document.querySelector('.todo-input');
+const todoButton = document.querySelector('button');
+const todoList = document.querySelector('.todo-list');
 
-const input = document.querySelector('.todo-input').value;
-const button = document.querySelector('button')
+/*******************
+ * EVENT LISTENERS *
+ *******************/
+todoButton.addEventListener('click', addTodo);
 
-// const printTodo = () => {
-//     const li = document.createElement('li');
-//     li.innerText = document.querySelector('.todo-input').value;
-//     const ul = document.querySelector('.todo-list');
-//     ul.appendChild(li);
-// }
-
-button.addEventListener('click', (event) => {
+/*************
+ * FUNCTIONS *
+ *************/
+const addTodo = (event) => {
     event.preventDefault();
-    console.log(input)
-    // printTodo()
+    console.log(todoInput.value);
     const li = document.createElement('li');
-    li.innerText = input;
-    const ul = document.querySelector('.todo-list');
-    ul.appendChild(li);
-})
+    li.innerText = todoInput.value;
+    todoList.appendChild(li);
+}
