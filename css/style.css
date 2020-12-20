@@ -21,6 +21,7 @@ header {
 /* Logo */
 a {
     text-decoration: none;
+    color: rgba(171, 71, 188)
 }
 #logo {
     font-size: 20px;

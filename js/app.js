@@ -11,6 +11,8 @@ const button = document.querySelector('button')
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
+    console.log(input)
+    // printTodo()
     const li = document.createElement('li');
     li.innerText = input;
     const ul = document.querySelector('.todo-list');
