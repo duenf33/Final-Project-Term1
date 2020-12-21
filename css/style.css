@@ -99,3 +99,16 @@ footer>ul {
     grid-template-columns: 10% 10% 10%;
     justify-content: center;
 }
+/**************************
+ * CHECK AND TRASH BUTTON *
+ **************************/
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+/*************************
+ * COMPLETE LINE THROUGH *
+ *************************/
+.complete {
+    text-decoration: line-through;
+}
