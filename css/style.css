@@ -87,6 +87,34 @@ button {
     grid-template-columns:  15% 15% 15%;
     list-style: none;
 }
+/************
+ * MYDOLIST *
+ ************/
+#todo-headers-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.todo-headers {
+    /* display: flex; */
+    /* align-content: space-between; */
+}
+#active-list {
+    /* display: flex; */
+    /* justify-content: left; */
+}
+#done-list {
+    /* display: flex; */
+    /* justify-content: right; */
+}
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+ /* COMPLETE LINE THROUGH */ 
+.complete {
+    text-decoration: line-through;
+}
 /**********
  * FOOTER *
  **********/
@@ -98,17 +126,4 @@ footer>ul {
     display: grid;
     grid-template-columns: 10% 10% 10%;
     justify-content: center;
-}
-/**************************
- * CHECK AND TRASH BUTTON *
- **************************/
-.fa-trash,
-.fa-check {
-    pointer-events: none;
-}
-/*************************
- * COMPLETE LINE THROUGH *
- *************************/
-.complete {
-    text-decoration: line-through;
 }

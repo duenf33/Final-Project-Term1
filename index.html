@@ -42,7 +42,7 @@
                 <form id="form">
                     <label for="todo-input"></label>
                     <input class="todo-input "type="text" name="todo-input" placeholder=" Enter Task">
-                    <button class="add-todo">
+                    <button class="add-button">
                         ADD
                     </button>
                 </form>
@@ -67,21 +67,25 @@
                     </ul>
                 </div>
                 <div id="div-todo">
+                    <div id="todo-headers-div">
+                        <h4 class="todo-headers" id="active-list">MyDoList</h4>
+                        <h4 class="todo-headers" id="done-list"><span>MyDoneList</span></h4>
+                    </div>
                     <ul class="todo-list">
                         <!-- this is where MyDoList will be displayed -->
                     </ul>
                 </div>
             </div>
         </div>
-        <footer id="footer">
+        <!-- <footer id="footer">
             <ul id="ul-footer">
                 <li class="li-footer" id="num-1">Top</li>
                 <li class="li-footer" id="num-2">about</li>
-                <li class="li-footer" id="num-3">Git</li>
+                <li class="li-footer" id="num-3">Git</li> -->
                 <!-- <li class="li-footer" id="num-4"></li>
                 <li class="li-footer" id="num-5"></li> -->
-            </ul>
-        </footer>
+            <!-- </ul>
+        </footer> -->
     </div>
     <script src="./js/todos.js"></script>
     <script src="./js/app.js"></script>
