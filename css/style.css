@@ -102,24 +102,15 @@ button {
 }
 #active-list {
     margin-left: 21px;
-    /* display: flex; */
-    /* flex-direction: row; */
 }
 #done-list {
     margin-right: 485px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: flex-end; */
-    /* justify-content: space-around; */
 }
 .todo-list {
     display: flex;
     flex-direction: column;
     color: var(--red-cl);
 }
-/* .todo-item {
-    text-decoration: none;
-} */
  /* COMPLETE LINE THROUGH */ 
 .complete {
     display: flex;
@@ -129,15 +120,3 @@ button {
     text-decoration: line-through;
     color: var(--green-cl);
 }
-/**********
- * FOOTER *
- **********/
-/* footer {
-    display: grid;
-    grid-template-rows: ;
-}
-footer>ul {
-    display: grid;
-    grid-template-columns: 10% 10% 10%;
-    justify-content: center;
-} */
