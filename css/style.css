@@ -27,6 +27,7 @@ a {
     font-size: 20px;
 }
 #cart {
+    /* background-image: url(/img/shopping-cart.png); */
     padding: 0 10px;
     padding-top: 2px;
     height: 15px;
@@ -114,9 +115,60 @@ button {
  /* COMPLETE LINE THROUGH */ 
 .complete {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: flex-end;
     justify-content: space-around;
     text-decoration: line-through;
     color: var(--green-cl);
+}
+@media only screen and (max-width: 650px){
+    body {
+        background-color: black;
+    }
+    header {
+        justify-content: left;
+        border: 1px solid var(--gray-cl);
+        background-color: var(--gray-cl);
+    }
+    a {
+        color: blanchedalmond;
+    }
+    #cart {
+        display: none;
+    }
+    #container {
+        color: blanchedalmond;
+    }
+    #divider {
+        display: grid;
+        /* margin-left: -100px; */
+        align-items: center;
+        grid-template-columns: 100%;
+    }
+    #theme-menu {
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    #ul-theme {color: blanchedalmond;
+        display: flex;
+        /* flex-direction: row; */
+    }
+    form {
+        border: 1px solid blanchedalmond;
+    }
+    ::placeholder {
+        color: black;
+    }
+    button {
+        border: 1px solid blanchedalmond;
+        background-color: rgb(19, 16, 16);
+        color: blanchedalmond;
+    }
+    .complete {
+        order: 999;
+        justify-content: flex-start;
+    }
+    #done-list {
+        display: none;
+    }
 }
