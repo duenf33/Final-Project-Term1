@@ -88,37 +88,51 @@ button {
     list-style: none;
 }
 /************
- * MYDOLIST *
+ * DO-LIST *
  ************/
 #todo-headers-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .todo-headers {
     /* display: flex; */
-    /* align-content: space-between; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
 }
 #active-list {
+    margin-left: 21px;
     /* display: flex; */
-    /* justify-content: left; */
+    /* flex-direction: row; */
 }
 #done-list {
+    margin-right: 485px;
     /* display: flex; */
-    /* justify-content: right; */
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
 }
 .todo-list {
     display: flex;
     flex-direction: column;
+    color: var(--red-cl);
 }
+/* .todo-item {
+    text-decoration: none;
+} */
  /* COMPLETE LINE THROUGH */ 
 .complete {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
     text-decoration: line-through;
+    color: var(--green-cl);
 }
 /**********
  * FOOTER *
  **********/
-footer {
+/* footer {
     display: grid;
     grid-template-rows: ;
 }
@@ -126,4 +140,4 @@ footer>ul {
     display: grid;
     grid-template-columns: 10% 10% 10%;
     justify-content: center;
-}
+} */
