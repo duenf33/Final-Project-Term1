@@ -53,8 +53,14 @@ todoButton.addEventListener('click', (event) => {
     event.preventDefault();
     const todo = {
         text: todoInput.value,
-        priority: 2,
         complete: false,
+        priority: 2,
+        today: true,
+        tomorrow: false,
+        personal: true,
+        work: false,
+        regular: true,
+        important: false,
         id: todos.length,
     }
 
